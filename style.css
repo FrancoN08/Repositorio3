@@ -1,0 +1,42 @@
+.conteiner {
+    background: rgb(145,235,133);
+background: linear-gradient(90deg, rgba(145,235,133,0.053658963585434205) 0%, rgba(62,241,46,1) 41%, rgba(20,226,4,1) 84%);
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.caja {
+    border: 5px solid black;
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+
+    padding: 10px;
+    margin: 10px;
+
+    border-radius: 50%;
+
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    transition: all .5s ease-in-out;
+}
+
+.caja:hover{
+    background-color: rgb(8, 218, 172);
+    color: rgb(7, 3, 3);
+
+    cursor: pointer;
+    /*transform: rotate(90deg);*/
+    transform: scale(1.1);
+    /*transform: skew(50deg);*/
+    /*transform: translate(40px, 40px);*/
+}
+
+.caja:active {
+    background-color: aqua;
+}
